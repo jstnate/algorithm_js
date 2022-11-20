@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #ffedd9;
+}
+
+.checker-board{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    border: 8px solid #9f5501;
+}
+
+div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.white_pawn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffbf78;
+}
+
+.black_pawn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #472600;
+}
